@@ -1,0 +1,15 @@
+'''
+Si la variable Github no esta configurada , configurarla mediante
+export GITHUB_USER="y0naldez"
+
+
+Para la ejecucion del cronjon: 
+
+1. Abrir la tabla de cron con un editor
+crontab -e
+
+2. Añadir la siguiente línea al final del archivo. Reemplazar /path/to/script.sh por la ruta absoluta del script
+
+*/5 * * * * /path/to/script.sh
+
+'''
