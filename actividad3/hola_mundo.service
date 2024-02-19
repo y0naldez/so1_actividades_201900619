@@ -1,0 +1,9 @@
+[Unit]
+Description=Imprime un saludo y la fecha actual
+
+[Service]
+Type=simple
+ExecStart=/home/bang/Escritorio/actividad3/saludo_fecha.sh
+
+[Install]
+WantedBy=multi-user.target
